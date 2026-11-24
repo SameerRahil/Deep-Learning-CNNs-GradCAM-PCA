@@ -6,9 +6,11 @@ Project 1 of CS 437 Deep Learning, LUMS, Spring 2026. Three notebooks that go fr
 
 | Part | Notebook | What it covers |
 | --- | --- | --- |
-| 1. CNN and bottleneck from scratch | [`1_cnn_from_scratch_and_bottleneck.ipynb`](notebooks/1_cnn_from_scratch_and_bottleneck.ipynb) | Conv2D and cross-entropy loss written by hand (forward and backward passes, checked against PyTorch), then a standard CNN and a bottleneck CNN trained with Adam on CIFAR-10 and compared on parameters and accuracy. |
-| 2. Efficient CNN with Grad-CAM | [`2_efficient_cnn_gradcam.ipynb`](notebooks/2_efficient_cnn_gradcam.ipynb) | A CNN under one million parameters for CIFAR-10, its training curves, and a Grad-CAM implementation with heatmap visualizations of what the network looks at. |
-| 3. PCA meets CNNs | [`3_pca_meets_cnns.ipynb`](notebooks/3_pca_meets_cnns.ipynb) | Feature-extraction hooks, PCA of the CNN's latent spaces, convolutional filters initialized from PCA components, and an ablation over the PCA component budget on Fashion-MNIST. |
+| 1. CNN and bottleneck from scratch | [`1_cnn_from_scratch_and_bottleneck.ipynb`](notebooks/1_cnn_from_scratch_and_bottleneck.ipynb) ([nbviewer](https://nbviewer.org/github/SameerRahil/Deep-Learning-CNNs-GradCAM-PCA/blob/main/notebooks/1_cnn_from_scratch_and_bottleneck.ipynb)) | Conv2D and cross-entropy loss written by hand (forward and backward passes, checked against PyTorch), then a standard CNN and a bottleneck CNN trained with Adam on CIFAR-10 and compared on parameters and accuracy. |
+| 2. Efficient CNN with Grad-CAM | [`2_efficient_cnn_gradcam.ipynb`](notebooks/2_efficient_cnn_gradcam.ipynb) ([nbviewer](https://nbviewer.org/github/SameerRahil/Deep-Learning-CNNs-GradCAM-PCA/blob/main/notebooks/2_efficient_cnn_gradcam.ipynb)) | A CNN under one million parameters for CIFAR-10, its training curves, and a Grad-CAM implementation with heatmap visualizations of what the network looks at. |
+| 3. PCA meets CNNs | [`3_pca_meets_cnns.ipynb`](notebooks/3_pca_meets_cnns.ipynb) ([nbviewer](https://nbviewer.org/github/SameerRahil/Deep-Learning-CNNs-GradCAM-PCA/blob/main/notebooks/3_pca_meets_cnns.ipynb)) | Feature-extraction hooks, PCA of the CNN's latent spaces, convolutional filters initialized from PCA components, and an ablation over the PCA component budget on Fashion-MNIST. |
+
+If GitHub cannot display a notebook, the nbviewer link next to it opens the same file.
 
 ## Results
 
